@@ -1,0 +1,9 @@
+<mat-card>
+    <mat-card-title>Counter</mat-card-title>
+    <mat-card-content>
+        <button mat-raised-button color="primary" (click)="increment()">Increment</button>
+        <button mat-raised-button color="warn" (click)="decrement()">Decrement</button>
+        <button mat-raised-button color="accent" (click)="reset()">Reset</button>
+        <p>Current Count: {{ count$ | async }}</p>
+    </mat-card-content>
+</mat-card>

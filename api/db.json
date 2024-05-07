@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "max",
+      "email": "max@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "mathew",
+      "email": "mathew@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "ravindra",
+      "email": "ravindra@acv.com"
+    },
+    {
+      "id": "384",
+      "name": "rishi",
+      "email": "rishimondal101@gmail.com"
+    },
+    {
+      "id": 833,
+      "name": "ihih",
+      "email": "hi"
+    }
+  ]
+}

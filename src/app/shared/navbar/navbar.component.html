@@ -1,0 +1,16 @@
+<mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" [routerLink]="['/users']" routerLinkActive="router-link-active" aria-label="Example icon-button with heart icon">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon favorite-icon" [routerLink]="['/counter']" routerLinkActive="router-link-active" aria-label="Example icon-button with heart icon">
+      <mat-icon>numbers</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" [routerLink]="['/product']" aria-label="Example icon-button with share icon">
+      <mat-icon>inventory_2</mat-icon>
+    </button>
+  </mat-toolbar>
